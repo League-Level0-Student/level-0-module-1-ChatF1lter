@@ -1,1 +1,12 @@
 size(600,600);
+fill(250,20,36,100);
+ellipse(300,300, 200,200);
+fill(49,54,255,200);
+ellipse(250,250, 200,200);
+fill(17,234,65,200);
+ellipse(350,250, 200,200);
+fill(#0C0D0C);
+textSize(25);
+text("Pleasant", 300,250);
+text("Sleepy", 175,250);
+text("Smart", 250,375);
