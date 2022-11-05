@@ -4,14 +4,16 @@ import javax.swing.JOptionPane;
 
 public class Badgers {
 public static void main(String[] args) {
-int badger = 0;
-int snake = 0;
-int mushroom = 0;
-	for(badger=0;badger<13;badger++) {
+int b = 0;
+int m = 0;
+for(int verse=0;verse<2;verse++) {
+	for(b=0;b<13;b++) {
 		System.out.print(" badger");
 	}
-	for(mushroom=0;mushroom<3;mushroom++) {
-		System.out.println(" snake");
+	for(m=0;m<2;m++) {
+		System.out.println(" mushroom");
 	}
+}
+System.out.println("A snake!!!");
 }
 }

@@ -12,7 +12,8 @@ public class MakeItCount {
 	public static void main(String[] args) {
 		int number = 0;
 		for (int i=1; i<4; i++) {
-			System.out.println(number);
+			System.out.println(i);
 		}
 	}
 }
+//Changed what it was printing from the variable "number" to i
